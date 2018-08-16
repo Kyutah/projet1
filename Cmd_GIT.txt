@@ -49,6 +49,10 @@ git merge branche a fusionner : fusionner des branches
 # apres un merge on peut rencontrer des conflits(les resoudre et faire n commit
 # sans message : git mettra un message structure pour le distinguer des autres
 
+git mergetool vimdiff : choix de l'outil pour editer les conflicts
+liste des outils :  vimdiff, meld, opendiff, kdiff3, tkdiff, xxdiff, tortoisemerge, gvimdiff, diffuse, ecmerge, p4merge, araxis, emerge
+
+
 
 
 
