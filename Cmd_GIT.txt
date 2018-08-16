@@ -31,4 +31,5 @@ ensuite
 git push origin master : rapatrie sur le remote tous les fichiers commited
 git pull origin master : recuperer la dernier version des fichier du remote
 
-
+git remote add nom urlrepository : definir un remote pour le dossier en cours
+( visible dansle fichier config .git ou avec la commande git remote -v )
