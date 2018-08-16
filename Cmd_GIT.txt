@@ -35,7 +35,7 @@ git pull origin master : recuperer la dernier version des fichier du remote
 git remote add nom urlrepository : definir un remote pour le dossier en cours
 ( visible dansle fichier config .git ou avec la commande git remote -v )
 
-
+------------------------------------------------------------
 git branch nouvelle-branche : creation d'un fil / branche pour tester des features sans impacter le fil master
 git checkout nouvelle-branche : pour se positionner sur une branche
 git checkout -b nouvelle-branche : regroupe les deux cmd precedente ( creee et se positionner sur la new branche)
@@ -51,22 +51,36 @@ git merge branche a fusionner : fusionner des branches
 
 git mergetool vimdiff : choix de l'outil pour editer les conflicts
 liste des outils :  vimdiff, meld, opendiff, kdiff3, tkdiff, xxdiff, tortoisemerge, gvimdiff, diffuse, ecmerge, p4merge, araxis, emerge
-
+-------------------------------------------------------------
 git blame nomdufichier.extension : retrouver tous les personnes ayant modif le fichier
 git show 05b121b : affichher les modifications effectuees pour un commit bien precis ( representer pas son SHA)
-
+-------------------------------------------------------------
 ignorer des fichiers : 
 pour ignorer des fichiers qu'on ne voudrait pas sur github par exemple 
 on cree un fichier a la base :.gitignore, on l'edite et on ajoute les url des fichiers a ignorer dedans
 de cette facon , lors de modif de ces fichiers ignores il n'apparaitront pas lors du git status
-
+-------------------------------------------------------------
 Zone de travail temporaire : le stash
 pour eviter de faire des commit a tout va, on utilise le 
 git stash : envoi des modifs en cours sur stash
 git stash pop : recuperer les modif en cours du stash 
-git stash aply : pour garder les modif dans le stash
+git stash apply : pour garder les modif dans le stash
 
-
+-------------------------------------------------------------
+Pull request : Contribuer a un projet 
+1. rechercher le prj sur github ( par exemple)
+2. fork le projet : cad prendre le repository et en faire une copie sur notre compte github
+3. copier l'url pour cloner le code sur ma machine : gt clone url
+4. regarder la doc : readme (Contributing : step a suivre ex : 
+   fork it, creer une branche features, commit changes, push to branch et create pull request)
+git clone url
+git branch features 
+git checkout features
+faire notre features
+git push origin features (login mot de pass github)
+sur github : dans le projet on constate l'envoi de la feature
+bouton => compare and pull request : la proposition de la feature au dev avec message etc 
+Create pull REquest :envoi de la proposition , on sera notifier par le dev accepter ou refuser etc
 
 
 
