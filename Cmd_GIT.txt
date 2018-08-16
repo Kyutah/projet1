@@ -60,6 +60,14 @@ pour ignorer des fichiers qu'on ne voudrait pas sur github par exemple
 on cree un fichier a la base :.gitignore, on l'edite et on ajoute les url des fichiers a ignorer dedans
 de cette facon , lors de modif de ces fichiers ignores il n'apparaitront pas lors du git status
 
+Zone de travail temporaire : le stash
+pour eviter de faire des commit a tout va, on utilise le 
+git stash : envoi des modifs en cours sur stash
+git stash pop : recuperer les modif en cours du stash 
+git stash aply : pour garder les modif dans le stash
+
+
+
 
 
 
