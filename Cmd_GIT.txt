@@ -52,6 +52,8 @@ git merge branche a fusionner : fusionner des branches
 git mergetool vimdiff : choix de l'outil pour editer les conflicts
 liste des outils :  vimdiff, meld, opendiff, kdiff3, tkdiff, xxdiff, tortoisemerge, gvimdiff, diffuse, ecmerge, p4merge, araxis, emerge
 
+git blame nomdufichier.extension : retrouver tous les personnes ayant modif le fichier
+git show 05b121b : affichher les modifications effectuees pour un commit bien precis ( representer pas son SHA)
 
 
 
