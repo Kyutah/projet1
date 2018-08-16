@@ -33,3 +33,7 @@ git pull origin master : recuperer la dernier version des fichier du remote
 
 git remote add nom urlrepository : definir un remote pour le dossier en cours
 ( visible dansle fichier config .git ou avec la commande git remote -v )
+
+
+git branch : liste les braches existante
+git merge branche a fusionner : fusionner des branches
