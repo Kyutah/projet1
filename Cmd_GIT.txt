@@ -25,3 +25,9 @@ git reset --hard‌ : annuler tout changement avant un commit
 
 git clone LienFourniParGITHUB : copie le repository d'un lien sur notre machine
 
+cd "dossier"
+faire des mofis ( git add - commit)
+ensuite 
+git push origin master : rapatrie sur le remote tous les fichiers commited
+
+
