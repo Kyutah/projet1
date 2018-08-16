@@ -39,6 +39,10 @@ git branch nouvelle-branche : creation d'un fil / branche pour tester des featur
 git checkout nouvelle-branche : pour se positionner sur une branche
 git checkout -b nouvelle-branche : regroupe les deux cmd precedente ( creee et se positionner sur la new branche)
 
+# tous commit dans cette branche , ne modifie en rien le fil master 
+# on ne peut donc pas faire un push de cette branche vers le remote que si on fusionne la branche
+# a verifier
+
 
 
 
