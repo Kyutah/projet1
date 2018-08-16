@@ -1,14 +1,15 @@
 mot clé :
 SHA : identificateur de commit
 index : endroit ou on ajoute les fichiers à enregistrer
-master : endroit ou sont enregistrer les fichiers ( repository )
+master : Fil principal  ou sont enregistrer les fichiers ( repository )
+branche : autre fil partant du fil master pour creer une divergence du fil master
 
 git config --global user.email "xxxx"
 git config --global user.name "zzzzz"
 
-git status
+git status : pour voir l'etat en cours du dossier
 
-git init : se positionner dans le dossier et en faire le master
+git init : se positionner dans le dossier et en faire le fil master
 git add file.txt : ajout de fichier dans l'index
 git add . : ajout de tous les fichiers dans l'index
 git commit -m "message" : enregistrement des fichiers dans le repository
@@ -35,5 +36,25 @@ git remote add nom urlrepository : definir un remote pour le dossier en cours
 ( visible dansle fichier config .git ou avec la commande git remote -v )
 
 
+git branch nouvelle-branche : creation d'un fil / branche pour tester des features sans impacter le fil master
+git checkout nouvelle-branche : pour se positionner sur une branche
+git checkout -b nouvelle-branche : regroupe les deux cmd precedente ( creee et se positionner sur la new branche)
+
+# tous commit dans cette branche , ne modifie en rien le fil master 
+# on ne peut donc pas faire un push de cette branche vers le remote que si on fusionne la branche
+# a verifier
+
 git branch : liste les braches existante
 git merge branche a fusionner : fusionner des branches
+# apres un merge on peut rencontrer des conflits(les resoudre et faire n commit
+# sans message : git mettra un message structure pour le distinguer des autres
+
+
+
+
+
+
+
+
+
+
