@@ -55,6 +55,10 @@ liste des outils :  vimdiff, meld, opendiff, kdiff3, tkdiff, xxdiff, tortoisemer
 git blame nomdufichier.extension : retrouver tous les personnes ayant modif le fichier
 git show 05b121b : affichher les modifications effectuees pour un commit bien precis ( representer pas son SHA)
 
+ignorer des fichiers : 
+pour ignorer des fichiers qu'on ne voudrait pas sur github par exemple 
+on cree un fichier a la base :.gitignore, on l'edite et on ajoute les url des fichiers a ignorer dedans
+de cette facon , lors de modif de ces fichiers ignores il n'apparaitront pas lors du git status
 
 
 
