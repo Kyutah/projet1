@@ -1,0 +1,27 @@
+mot clé :
+SHA : identificateur de commit
+index : endroit ou on ajoute les fichiers à enregistrer
+master : endroit ou sont enregistrer les fichiers ( repository )
+
+git config --global user.email "xxxx"
+git config --global user.name "zzzzz"
+
+git status
+
+git init : se positionner dans le dossier et en faire le master
+git add file.txt : ajout de fichier dans l'index
+git add . : ajout de tous les fichiers dans l'index
+git commit -m "message" : enregistrement des fichiers dans le repository
+git commit -a -m "message" : ajout de toutes les modifs + commit pour un fichier existant dans l'index
+
+git log : historique des commits (identifie par un SHA unique
+
+git checkout SHAduCommit : se repositionner sur le commit 
+git checkout master : revenir au dernier commit de la branche principale
+git revert SHADuCommit : un nouveau commit qui fait l'inverse du précédent
+git commit --amend -m "Votre nouveau message" : changer le message d'un commit
+
+git reset --hard‌ : annuler tout changement avant un commit
+
+git clone LienFourniParGITHUB : copie le repository d'un lien sur notre machine
+
